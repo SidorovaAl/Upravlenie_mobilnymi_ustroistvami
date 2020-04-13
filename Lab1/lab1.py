@@ -2,7 +2,7 @@ import sys
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-csv', default = 'C:\data.csv')
+parser.add_argument('-csv', default = 'data.csv')
 namespace = parser.parse_args(sys.argv[1:])
 
 import csv
